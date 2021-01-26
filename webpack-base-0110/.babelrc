@@ -1,0 +1,16 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      // 设为 false 就不会对ES6 模块化进行转码，好处是 Webpack 一类的打包工具可以进行静态分析
+      "modules": false,
+      "targets": "> 1%, last 2 versions, not ie <= 8",
+      "useBuiltIns": false,
+      "corejs": 3
+    }]
+  ],
+  "plugins": [
+    ["@babel/plugin-transform-runtime", {
+      "corejs": 3
+    }]
+  ]
+}

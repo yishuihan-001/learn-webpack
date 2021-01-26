@@ -1,0 +1,9 @@
+.yellow {
+  color: yellow;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 40px;
+}

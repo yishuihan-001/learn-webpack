@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{118:function(w,n,o){"use strict";o.r(n),n.default="world"}}]);

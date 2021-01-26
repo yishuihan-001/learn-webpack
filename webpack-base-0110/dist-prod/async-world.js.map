@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/es5/world.js"],"names":[],"mappings":"0FAAA,OAAe","file":"async-world.js","sourcesContent":["export default 'world'\n"],"sourceRoot":""}

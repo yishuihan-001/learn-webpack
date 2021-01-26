@@ -1,0 +1,59 @@
+@import './body.css';
+
+body {
+  background: pink;
+  color: #333;
+}
+
+.blue {
+  color: blue;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 80px;
+  background: url(~@assets/img/jingtian.jpg) no-repeat;
+}
+
+.icon {
+  height: 200px;
+  background: fuchsia;
+  margin-bottom: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.icon > div {
+  width: 142px;
+  height: 142px;
+  border: 2px solid #fff;
+  margin: 10px;
+}
+.icon1 {
+  background: url(../sprites/icon1.png) no-repeat center/80px auto;
+  background-position: center;
+  background-size: 80px;
+}
+.icon2 {
+  background: url(../sprites/icon2.png) no-repeat center/80px auto;
+}
+.icon3 {
+  background: url(../sprites/icon3.png) no-repeat center/80px auto;
+}
+.icon4 {
+  background: url(../sprites/icon4.png) no-repeat center/80px auto;
+}
+.icon5 {
+  background: url(../sprites/icon5.jpg) no-repeat center/100px auto;
+}
+.icon6 {
+  background: url(../sprites/icon6.jpg) no-repeat center/100px auto;
+}
+.icon7 {
+  background: url(../sprites/icon7.jpg) no-repeat center/100px auto;
+}
+.icon8 {
+  background: url(../sprites/icon8.jpg) no-repeat center/100% 100%;
+}

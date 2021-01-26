@@ -1,0 +1,27 @@
+doctype html
+html
+  head
+    meta(charset="UTF-8")
+    title="Hello home"
+    script.
+      window.onerror = function (msg, url, row, col, error) {
+        const obj = {
+          msg,
+          url,
+          row,
+          col,
+        };
+        console.log('/********* ERROR START **********/')
+        console.log(obj);
+        console.log('/********* ERROR END **********/')
+      };
+      console.log('pug inline js')
+
+  body
+    h1 Pug - home page
+    div#app
+    div#icon
+    div#main
+      img(src="~@assets/img/fengjing.jpg")
+
+    include footer.pug
